@@ -5,7 +5,8 @@ source "https://rubygems.org"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem "rails", "~> 5.1.6"
 # Use sqlite3 as the database for Active Record
-gem "sqlite3"
+# gem "sqlite3"
+gem "pg"
 # Use Puma as the app server
 gem "puma", "~> 3.12"
 # Use SCSS for stylesheets
@@ -29,7 +30,6 @@ gem "will_paginate-bootstrap"
 
 # Use slim instead of erb
 gem "slim"
-
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
